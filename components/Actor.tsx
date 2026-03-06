@@ -1,12 +1,4 @@
-interface MovieProps {
-  id: string
-  title: string
-  poster: string
-  duration: number
-  country: string
-  releaseDate: string
-  popularity: number
-}
+import MovieProps from "./Movie"
 
 interface ActorProps {
   id: string
@@ -18,4 +10,4 @@ interface ActorProps {
   movies: MovieProps[]
 }
 
-export default ActorProps
+export default ActorProps;

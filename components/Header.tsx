@@ -12,7 +12,8 @@ const Header = () => {
           {/* We replaced all <a> tags with <Link> tags */}
           <Link href="/" className="px-3 hover:text-gray-300">Inicio</Link>
           <Link href="/actors" className="px-3 hover:text-gray-300">Actores</Link>
-          <Link href="/crear" className="px-3 hover:text-gray-300">Crear</Link>
+          <Link href="/crear" className="px-3 hover:text-gray-300">Crear Actor</Link>
+          <Link href="/movies" className="px-3 hover:text-gray-300">Peliculas</Link>
         </nav>
       </div>
     </header>

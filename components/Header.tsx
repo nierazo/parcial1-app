@@ -1,5 +1,4 @@
 import Link from 'next/link'; // Imports Link from Next.js
-import Image from 'next/image'; // Imports Image from Next.js
 
 const Header = () => {
   return (

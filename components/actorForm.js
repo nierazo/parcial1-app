@@ -1,4 +1,4 @@
-import { useActorForm } from "@/hooks/useActorForm";
+import { useActorForm } from "@/CustomHook";
 
 function Signup() {
   const { handleSubmit, handleInputChange } = useActorForm(schema);
